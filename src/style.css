@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#title{
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 100px;
+  }
+
+.lower-div {
+    /* Option 1: Use margin-top to add space above the div */
+    /* margin-top: 200px; */
+
+    /* Option 2: Use position to set the element's position */
+    margin-top: 1000px;
+    position: relative;
+    top: 200px;
+}
+
+.button {
+    font-size: 40px;
+    text-align: center;
+}
