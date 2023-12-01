@@ -4,7 +4,7 @@
   "description": "Star website for 326",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server/server.js"
   },
   "author": "Matthew En",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "mongodb": "^6.3.0",
     "mongoose": "^8.0.2",
     "morgan": "^1.10.0",
+    "nodemon": "^3.0.1",
     "pg": "^8.11.3"
   }
 }
