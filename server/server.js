@@ -4,8 +4,13 @@ import express from 'express';
 const app = express();
 
 const port = 3000;
+
+app.set('view engine', 'ejs');
+
+app.use(express.static('public'));
+
 app.get("/", (request, response) => {
-    response.json("test");
+    response.render('index');
 });
 
 app.listen(3000, () => {
