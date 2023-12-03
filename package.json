@@ -2,10 +2,9 @@
   "name": "ils-web_app",
   "version": "1.0.0",
   "description": "Star website for 326",
-  "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server/server.js"
+    "start": "nodemon server.js"
   },
   "author": "Matthew En",
   "license": "ISC",
